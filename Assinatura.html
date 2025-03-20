@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinatura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .signature-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #ccc;
+            padding: 10px;
+            max-width: 600px;
+            background-color: #fff;
+        }
+        .info {
+            font-size: 14px;
+            color: #333;
+        }
+        .info b {
+            font-size: 16px;
+            color: #000;
+        }
+        .wave-logo-container {
+            display: flex;
+            align-items: center;
+            position: relative; 
+        }
+        .wave {
+            margin-right: 10px;
+        }
+        .wave img {
+            width: 120px;
+        }
+        .logo {
+            position: relative; 
+        }
+        .logo img {
+            width: 190px;
+        }
+        .company-link {
+            position: absolute;
+            top: -1px; 
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            color: #0073e6;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="signature-container">
+    <div class="info">
+        <b>{FIRST_NAME} {LAST_NAME}</b><br>
+        {TITLE}<br><br>
+        {WORK_PHONE}<br>
+        {WORK_ADDRESS}
+    </div>
+    <div class="wave-logo-container">
+        <div class="wave">
+            <img src="https://drive.google.com/thumbnail?id=14D0VhsZabCwFlr11IUcAphy9st4fS2yF" alt="Linha ondulada">
+        </div>
+        <div class="logo">
+            <img src="https://drive.google.com/thumbnail?id=1tW41TqlUJqrrz1SCwkgoHFt3QE1PHqSu" alt="Logo">
+            <div class="company-link">
+                <p>{WEB_CIA}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
