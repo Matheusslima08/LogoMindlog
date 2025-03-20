@@ -1,2 +1,2 @@
-# LogoMindlog
-Logo da Mindlog
+# Assinatura Mindlog  
+Assinatura Mindlog
